@@ -14,7 +14,7 @@ const CartItem = ({ cart, totalvalue }) => {
   };
 
   return (
-    <div className=" flex flex-col gap-2 h-screen overflow-scroll mt-5  ">
+    <div className=" flex flex-col gap-2 h-screen overflow-scroll mt-5 p-5  items-center  ">
       {cart.map((i, index) => (
         <div
           key={index}

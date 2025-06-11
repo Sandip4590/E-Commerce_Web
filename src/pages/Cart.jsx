@@ -22,12 +22,12 @@ const Cart = () => {
   }
 
   return (
-    <div className=" flex justify-center items-center lg:h-screen">
+    <div className=" flex justify-center items-center lg:h-screen ">
       {cart.length > 0 ? (
         <div className=" flex lg:flex-row md:flex-row  flex-col">
           
           <CartItem cart={cart} totalvalue={totalvalue} />
-          <div className=" lg:mt-15 mt-5 lg:pl-15 md:pl-5 flex flex-col gap-5 w-[320px] ">
+          <div className=" p-2 lg:mt-15 mt-5 lg:pl-15 md:pl-5 flex flex-col gap-5 ">
             <div className=" flex flex-col  lg:h-[70vh] ">
               <p className=" uppercase text-green-800 text-sm font-bold ">your Cart</p>
               <h1 className=" uppercase text-green-800 text-4xl font-bold">summary</h1>
